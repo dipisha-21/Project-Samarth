@@ -95,7 +95,7 @@ def answer_question(question):
 st.sidebar.header("Controls")
 option = st.sidebar.selectbox("Choose category:", df["Commodity"].unique() if "Commodity" in df.columns else ["A", "B", "C"])
 
-st.title("Dashboard Interface")
+st.title("Dashboard: ")
 st.write("Visualize and interact with your data here.")
 
 if "Commodity" in df.columns and "Modal_x0020_Price" in df.columns:
